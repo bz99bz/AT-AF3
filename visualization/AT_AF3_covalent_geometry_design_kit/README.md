@@ -3,6 +3,7 @@
 Use a compact two-row arrangement: a local covalent-connectivity schematic and
 the correction-change distribution above two aligned All-D / Local-D comparisons.
 The second attachment is the visual reference. Only two image files were supplied.
+Rendered preview files are not included; run the preview command below to generate them.
 
 This package is a design template, not a recomputed scientific result.
 The preview contains no bond-level points or prediction-level distribution.
@@ -94,8 +95,9 @@ residue context, and aggregation used in your analysis.
 ## PowerPoint 2019 workflow
 
 1. Use a blank slide with a custom size of approximately 18 by 13.8 cm.
-2. Insert `AT_AF3_covalent_geometry_layout_preview.svg` through Insert > Pictures to try the layout.
-   After running on measured CSVs, insert the measured SVG instead.
+2. Run the preview command above, then insert the generated
+   `AT_AF3_covalent_geometry_layout_preview.svg` through Insert > Pictures to try
+   the layout. After running on measured CSVs, insert the measured SVG instead.
 3. PowerPoint 2019 for Windows supports conversion of SVG graphics into Office
    shapes. Right-click the SVG and use Convert to Shape, then ungroup if needed.
    This can help edit lines and colours. Complex SVG text can import differently;

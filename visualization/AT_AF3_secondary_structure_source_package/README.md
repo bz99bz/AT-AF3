@@ -28,16 +28,13 @@ on the reported values. No per-seed distribution or uncertainty is inferred.
 
 ## Files
 
-- `AT_AF3_secondary_structure.pdf`: vector manuscript figure with embedded
-  TrueType fonts.
-- `AT_AF3_secondary_structure.svg`: vector figure retaining editable text.
-- `AT_AF3_secondary_structure.png`: 600-dpi raster export.
-- `AT_AF3_secondary_structure_preview.png`: smaller preview.
 - `secondary_structure_source.csv`: all supplied input values, in wide format.
 - `AT_AF3_minus_GT_percentage_points.csv`: all 48 annotated differences.
 - `plot_secondary_structure.py`: reproducible Matplotlib code.
-- `caption.tex`: suggested LaTeX caption and figure label.
 - `figure_data_summary.json`: numeric provenance and checks.
+
+Rendered PDF, SVG and PNG outputs are not distributed. Run the script below to
+generate them locally.
 
 ## Reproduce
 
@@ -54,15 +51,15 @@ The code rejects a scale that would hide data.
 
 ## Size, style, and editing
 
-The figure is 180 mm wide and 142 mm high. Standard figure text uses a
+The generated figure is 180 mm wide and 142 mm high. Standard figure text uses a
 sans-serif font at about 6.2-7 pt, with larger bold panel letters. The design
 adopts the reference images' restrained blues and lavender, compact alignment,
 light guides, and direct numeric annotations.
 
-The PDF is intended for insertion into the manuscript. The SVG can be inserted
-into PowerPoint 2019 on Windows and converted to shapes for further layout edits.
-Text font substitution can affect the SVG, so inspect after importing. The PNG
-preserves the rendered appearance.
+The generated PDF is intended for insertion into the manuscript. The generated
+SVG can be inserted into PowerPoint 2019 on Windows and converted to shapes for
+further layout edits. Text font substitution can affect the SVG, so inspect
+after importing. The generated PNG preserves the rendered appearance.
 
 The width, minimum raster resolution, and standard font sizes follow Nature
 Machine Intelligence's figure-formatting guidance:

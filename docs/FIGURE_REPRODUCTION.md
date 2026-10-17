@@ -2,7 +2,9 @@
 
 The manuscript figures are assembled from measured tables and released source
 CSVs. No plotted value is transcribed by hand from an image. The source
-packages below are the minimal reproducible units.
+packages below are the minimal reproducible units. Pre-rendered PDF, SVG and PNG
+files and the `.tex` caption fragments are not distributed; each command below
+regenerates the outputs from the released source tables.
 
 ## Figure 2 - chirality heatmap and paired effects
 

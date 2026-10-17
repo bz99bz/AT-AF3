@@ -42,10 +42,13 @@ tmp/
 *.log
 nohup.out
 
-# Keep the released source data and figures
+# Keep released source data
 !data/**/*.cif
 !data/**/*.csv
 !data/**/*.json
-!visualization/**/*.pdf
-!visualization/**/*.png
-!visualization/**/*.svg
+
+# Generated figure artifacts (recreate with the visualization scripts)
+visualization/**/*.pdf
+visualization/**/*.png
+visualization/**/*.svg
+visualization/**/*.tex

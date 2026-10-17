@@ -11,4 +11,4 @@ python plot_tertiary_geometry.py --output-dir ./tertiary_geometry
 
 The program exports a 180 x 200 mm vector PDF, an editable SVG with text preserved, and a 600 dpi PNG. It also writes the exact source-data JSON and a LaTeX figure/caption fragment. The PDF embeds its fonts.
 
-For LaTeX, use the graphicx package and place tertiary_geometry.pdf beside the manuscript, then insert the accompanying caption fragment. The figure label is fig:tertiary_geometry.
+For LaTeX, use the graphicx package and place the generated tertiary_geometry.pdf beside the manuscript, then insert the generated tertiary_geometry_caption.tex fragment. The figure label is fig:tertiary_geometry.

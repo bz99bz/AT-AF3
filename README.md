@@ -29,7 +29,7 @@ under the same protocol.
 | `data/local_d/` | Local-D curation manifests and post-cutoff target manifests |
 | `docs/` | Pipeline, metrics, data-provenance and figure-reproduction notes |
 | `tests/` | Unit tests for input generation, chirality geometry and Phenix mapping |
-| `visualization/` | Source data and scripts for the manuscript's chirality, covalent, secondary and tertiary figures |
+| `visualization/` | Source data and plotting code for the manuscript's chirality, covalent, secondary and tertiary figures (run the scripts to generate rendered outputs) |
 
 AF3 itself, its model parameters, Phenix, DockQ and USalign are **not**
 redistributed. See [External software](#external-software).
