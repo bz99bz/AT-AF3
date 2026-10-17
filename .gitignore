@@ -46,9 +46,3 @@ nohup.out
 !data/**/*.cif
 !data/**/*.csv
 !data/**/*.json
-
-# Generated figure artifacts (recreate with the visualization scripts)
-visualization/**/*.pdf
-visualization/**/*.png
-visualization/**/*.svg
-visualization/**/*.tex

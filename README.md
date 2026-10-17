@@ -29,7 +29,6 @@ under the same protocol.
 | `data/local_d/` | Local-D curation manifests and post-cutoff target manifests |
 | `docs/` | Pipeline, metrics, data-provenance and figure-reproduction notes |
 | `tests/` | Unit tests for input generation, chirality geometry and Phenix mapping |
-| `visualization/` | Source data and plotting code for the manuscript's chirality, covalent, secondary and tertiary figures (run the scripts to generate rendered outputs) |
 
 AF3 itself, its model parameters, Phenix, DockQ and USalign are **not**
 redistributed. See [External software](#external-software).
@@ -133,8 +132,7 @@ are mirror-invariant.
 python scripts/plot_fig2_chirality_heatmap.py
 ```
 
-Figure source packages and their measured input CSVs are under
-`visualization/`. See `docs/FIGURE_REPRODUCTION.md`.
+See `docs/FIGURE_REPRODUCTION.md` for the Figure 2 inputs and output paths.
 
 
 ### 5. Tests
@@ -199,8 +197,7 @@ AT-AF3/
 │   ├── phenix_interaction_analysis/
 │   └── ...
 ├── src/
-├── tests/
-└── visualization/
+└── tests/
 ```
 
 ## Reproducing the manuscript's claims

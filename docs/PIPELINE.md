@@ -147,8 +147,4 @@ performed.
 | `per_case_metric_tables.py` | Per-case tables from `gt_metrics_per_seed.csv` |
 | `tertiary_metric_tables.py` | RMSD, radius of gyration and mirror-RMSD tables |
 | `plot_fig2_chirality_heatmap.py` | Figure 2 heatmap and paired-effect panels |
-| `visualization/AT_AF3_chirality_redesign.py` | Standalone three-panel chirality figure from manuscript values |
-| `visualization/AT_AF3_covalent_geometry_design_kit/` | Covalent-geometry figure source data and plotting code |
-| `visualization/AT_AF3_secondary_structure_source_package/` | DSSP composition figure and source CSV |
-| `visualization/tertiary_geometry_source/` | WGE-3 interaction-geometry figure and source JSON |
 
