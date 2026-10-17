@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+venv_af3/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# AF3 / external software checkouts and weights
+alphafold3/
+external/
+*.bin
+
+# Generated experiment outputs
+runs_master42*/
+runs/local_d_curated_v1_1_*/
+logs_master42*/
+logs_*/
+reports_master42*/
+manifests_master42*/
+af3_inputs*/
+af3_outputs*/
+outputs*/
+results/
+inputs/
+D_Protein_PDB/
+
+# Local caches and scratch
+_cache_rcsb/
+tmp/
+*.log
+nohup.out
+
+# Keep the released source data and figures
+!data/**/*.cif
+!data/**/*.csv
+!data/**/*.json
+!visualization/**/*.pdf
+!visualization/**/*.png
+!visualization/**/*.svg

@@ -1,0 +1,14 @@
+{
+  "case_id": "7P5R_2",
+  "chains": {
+    "C": {
+      "default_target_chirality": "D",
+      "exclude_residue_names": [
+        "GLY"
+      ]
+    }
+  },
+  "mode": "all_D",
+  "reference_coordinates_allowed": false,
+  "reference_chain_note": "Canonical chain C holds the D copy of the target; chain A is the L enantiomer that the same entry also deposits (sequences identical under D->L parent mapping). See docs/METRICS.md."
+}

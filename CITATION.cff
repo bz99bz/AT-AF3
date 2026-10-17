@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or CHORD, please cite the AT-AF3 manuscript."
+title: "AT-AF3: Associative Thinking Enables Zero-Shot D-Protein Structure Generation"
+abstract: >-
+  AT-AF3 is a zero-shot framework for controlling stereochemistry in frozen
+  AlphaFold 3 predictions. Associative Thinking compiles chirality requirements
+  and residue-level chemical knowledge into CCD constraints, followed by
+  deterministic geometric verification and correction. The CHORD benchmark
+  contains seven All-D and nine Local-D targets evaluated with 30 matched
+  inference seeds per target.
+authors:
+  - family-names: Guo
+    given-names: Siyuan
+    affiliation: "School of Computer Science and Technology, Tongji University, China"
+  - family-names: Luo
+    given-names: Yongcan
+    affiliation: "Department of Computer Science, City University of Hong Kong, China"
+  - family-names: Guan
+    given-names: Jihong
+    affiliation: "School of Computer Science and Technology, Tongji University, China"
+  - family-names: Zhou
+    given-names: Shuigeng
+    affiliation: "College of Computer Science and Artificial Intelligence, Fudan University, China"
+  - family-names: Wu
+    given-names: Dapeng Oliver
+    affiliation: "Department of Computer Science, City University of Hong Kong, China"
+version: 1.0.0
+date-released: 2026-10-17
+license: MIT
+repository-code: "https://github.com/bz99bz/AT-AF3"
+url: "https://github.com/bz99bz/AT-AF3"
+keywords:
+  - protein structure prediction
+  - AlphaFold 3
+  - D-protein
+  - chirality
+  - zero-shot
+  - CHORD

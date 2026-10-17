@@ -1,0 +1,39 @@
+{
+  "permanent_test_only": [
+    "7P5R_2",
+    "7QDI_1",
+    "8AVR_2",
+    "8BFD_2",
+    "8GQP_1",
+    "8JH6_1",
+    "8P6Q_2"
+  ],
+  "role": "permanent_postcutoff_test",
+  "source_split": "postcutoff_test",
+  "is_permanent_test": true,
+  "allowed_for_training": false,
+  "aliases": {
+    "7P5R_2": ["7P5R", "case_01_7P5R_2"],
+    "7QDI_1": ["7QDI", "case_02_7QDI_1"],
+    "8AVR_2": ["8AVR", "case_03_8AVR_2"],
+    "8BFD_2": ["8BFD", "case_07_8BFD_2"],
+    "8GQP_1": ["8GQP", "case_08_8GQP_1"],
+    "8JH6_1": ["8JH6", "case_09_8JH6_1"],
+    "8P6Q_2": ["8P6Q", "case_10_8P6Q_2"]
+  },
+  "forbidden_training_roles": [
+    "train",
+    "validation",
+    "cross_validation",
+    "calibration",
+    "feature_selection",
+    "normalization_fit",
+    "hyperparameter_search",
+    "loss_weight_selection",
+    "early_stopping",
+    "checkpoint_selection",
+    "sequence_clustering_reference_pool"
+  ],
+  "allowed_test_operations": ["transform", "predict", "evaluate"],
+  "forbidden_test_operations": ["fit", "fit_transform", "partial_fit", "calibrate", "update"]
+}

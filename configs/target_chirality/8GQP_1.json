@@ -1,0 +1,17 @@
+{
+  "case_id": "8GQP_1",
+  "chains": {
+    "A": {
+      "default_target_chirality": "D",
+      "exclude_residue_names": [
+        "GLY"
+      ]
+    },
+    "B": {
+      "allow_coordinate_modification": false,
+      "default_target_chirality": "L"
+    }
+  },
+  "mode": "selective_D_binder",
+  "reference_coordinates_allowed": false
+}

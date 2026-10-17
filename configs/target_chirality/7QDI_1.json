@@ -1,0 +1,13 @@
+{
+  "case_id": "7QDI_1",
+  "chains": {
+    "A": {
+      "default_target_chirality": "D",
+      "exclude_residue_names": [
+        "GLY"
+      ]
+    }
+  },
+  "mode": "all_D",
+  "reference_coordinates_allowed": false
+}

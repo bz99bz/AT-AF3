@@ -1,0 +1,17 @@
+task,target,H_delta_pp,E_delta_pp,C_delta_pp
+All-D,7P5R_2,3.8,0.0,-3.8
+All-D,7QDI_1,4.5,0.0,-4.5
+All-D,8AVR_2,9.3,0.0,-9.3
+All-D,8BFD_2,1.1,0.0,-1.1
+All-D,8GQP_1,2.0,0.0,-2.0
+All-D,8JH6_1,-0.3,0.0,0.3
+All-D,8P6Q_2,19.2,-29.1,9.9
+Local-D,7OOJ_1,4.1,0.4,-4.4
+Local-D,7P0A_3,12.8,-7.0,-5.8
+Local-D,7P0T_3,11.2,-7.5,-3.8
+Local-D,7W40_6,3.0,2.7,-5.7
+Local-D,8HR3_1,3.9,0.0,-3.8
+Local-D,8HR4_1,3.1,0.0,-3.1
+Local-D,8U78_1,0.0,0.0,0.0
+Local-D,8UM9_1,0.0,0.0,0.0
+Local-D,9BIC_1,14.1,0.0,-14.1
